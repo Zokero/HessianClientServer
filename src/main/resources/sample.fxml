@@ -1,0 +1,14 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<Pane fx:controller="com.example.HessianClientServer.Client" xmlns:fx="http://javafx.com/fxml">
+<VBox>
+    <TextArea fx:id="textArea" prefWidth="300" editable="false" wrapText="true" >
+    </TextArea>
+    <!--<TextField fx:id="textField" onAction="#onButtonClicked"/>-->
+    <Button text="Send" prefWidth="90" onAction="#onButtonClicked"/>
+</VBox>
+</Pane>
+
